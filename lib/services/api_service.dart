@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'auth_service.dart';
 
 class ApiService {
-  static const _baseUrl = 'http://localhost:3000'; // e.g. https://api.example.com
+  static const _baseUrl = 'https://vercel.com/ankitseths-projects/login-signup/92QUrjxS74dXARkXVbqHZYCRx67e'; // e.g. https://api.example.com
   final AuthService authService;
 
   ApiService({required this.authService});

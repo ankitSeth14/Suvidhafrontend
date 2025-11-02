@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 
 class AuthService extends ChangeNotifier {
   static const _storageKey = 'suvidha_jwt';
-  static const _baseUrl = 'http://localhost:3000'; 
+  static const _baseUrl = 'https://vercel.com/ankitseths-projects/login-signup/92QUrjxS74dXARkXVbqHZYCRx67e'; 
 
   final FlutterSecureStorage _storage = const FlutterSecureStorage();
   String? _token;
